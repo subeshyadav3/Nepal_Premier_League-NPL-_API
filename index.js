@@ -10,7 +10,8 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 
-//this is routes section
+//this is routes section and middlewares
+app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api', apiRoutes);
 app.get('/', (req, res) => {
     res.render('index');

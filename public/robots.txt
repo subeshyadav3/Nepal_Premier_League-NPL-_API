@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin/
+Allow: /
+Sitemap: https://nepal-premiere-league-npl-api.vercel.app/sitemap.xml
