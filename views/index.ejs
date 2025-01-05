@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPL API Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        .endpoint {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Welcome to the Nepal Premier League API</h1>
+        <p class="text-center">Explore various endpoints to get information about NPL.</p>
+        
+        <div class="endpoint">
+            <h3>Endpoints</h3>
+            <ul>
+                <li><a href="/api/npl">All Data</a> - Get all available data.</li>
+                <li><a href="/api/npl/matches">Matches</a> - Get information about all matches.</li>
+                <li><a href="/api/npl/matches/:matchNo">Match by Number</a> - Get details of a specific match. (Replace `:matchNo` with match number)</li>
+                <li><a href="/api/npl/ranking">Points Table</a> - View the current points table.</li>
+                <li><a href="/api/npl/results">Results</a> - Get results of all matches.</li>
+                <li><a href="/api/npl/teams">Teams</a> - Get a list of all teams.</li>
+                <li><a href="/api/npl/teams/:team">Team by Name</a> - Get details of a specific team. (Replace `:team` with team short form)</li>
+            </ul>
+        </div>
+
+        <div class="text-center">
+            <p>For better experience, use a pretty-print JSON viewer option (given on top).</p>
+            
+        </div>
+    </div>
+</body>
+</html>

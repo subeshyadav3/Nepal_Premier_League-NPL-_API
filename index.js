@@ -5,10 +5,10 @@ const app = express();
 dotenv.config();
 const apiRoutes = require('./routes/api');
 
-
+app.set('view engine', 'ejs');
 app.use('/api', apiRoutes);
 app.get('/', (req, res) => {
-    res.send('Home Page of NPL API , visit /api/npl to get the data');
+    res.render('index');
 });
 
 // Start the server
