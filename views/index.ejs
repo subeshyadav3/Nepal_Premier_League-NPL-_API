@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="jWN47cqBzt7R2I-BLZJfBFQHkkOYXQGfxBthSWsRO9U" />
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Explore the official Nepal Premier League (NPL) API to get information about matches, teams, rankings, results, and more.">
-    <meta name="keywords" content="Nepal Premier League, NPL API, Football API, Match Information, Points Table, NPL Teams">
+    <meta name="description"
+        content="Explore the official Nepal Premier League (NPL) API to get information about matches, teams, rankings, results, and more.">
+    <meta name="keywords"
+        content="Nepal Premier League, NPL API, Football API, Match Information, Points Table, NPL Teams">
     <meta name="author" content="Subesh Yadav">
-    
+
     <!-- Open Graph Meta Tags (for better social media sharing) -->
     <meta property="og:title" content="Nepal Premier League API">
-    <meta property="og:description" content="Explore the official Nepal Premier League (NPL) API to get information about matches, teams, rankings, results, and more.">
+    <meta property="og:description"
+        content="Explore the official Nepal Premier League (NPL) API to get information about matches, teams, rankings, results, and more.">
     <meta property="og:image" content="URL-to-your-image.jpg"> <!-- Update with your image URL -->
     <meta property="og:url" content="https://nepal-premiere-league-npl-228cr4fyd-subesh.vercel.app">
     <meta property="og:type" content="website">
@@ -19,7 +23,8 @@
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Nepal Premier League API">
-    <meta name="twitter:description" content="Explore the official Nepal Premier League (NPL) API to get information about matches, teams, rankings, results, and more.">
+    <meta name="twitter:description"
+        content="Explore the official Nepal Premier League (NPL) API to get information about matches, teams, rankings, results, and more.">
     <meta name="twitter:image" content="URL-to-your-image.jpg"> <!-- Update with your image URL -->
     <meta name="robots" content="index, follow">
     <title>Nepal Premiere League (NPL) Api </title>
@@ -29,35 +34,122 @@
             background-color: #f8f9fa;
             padding: 20px;
         }
+
         h1 {
             color: #007bff;
         }
+
         .endpoint {
             margin-bottom: 20px;
         }
+
+        .about-npl {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .about-npl h2 {
+            font-size: 2em;
+            color: #007bff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .about-npl p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .about-npl p strong {
+            color: #007bff;
+        }
+
+        .about-npl p:last-child {
+            margin-bottom: 0;
+        }
+
+        .about-npl a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .about-npl a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1 class="text-center">Welcome to the Nepal Premier League API</h1>
         <p class="text-center">Explore various endpoints to get information about NPL.</p>
-        
+
         <div class="endpoint">
             <h3>Endpoints</h3>
             <ul>
                 <li><a href="/api/npl">All Data</a> - Get all available data.</li>
                 <li><a href="/api/npl/matches">Matches</a> - Get information about all matches.</li>
-                <li><a href="/api/npl/matches/:matchNo">Match by Number</a> - Get details of a specific match. (Replace `:matchNo` with match number)</li>
+                <li><a href="/api/npl/matches/:matchNo">Match by Number</a> - Get details of a specific match. (Replace
+                    `:matchNo` with match number)</li>
                 <li><a href="/api/npl/ranking">Points Table</a> - View the current points table.</li>
                 <li><a href="/api/npl/results">Results</a> - Get results of all matches.</li>
                 <li><a href="/api/npl/teams">Teams</a> - Get a list of all teams.</li>
-                <li><a href="/api/npl/teams/:team">Team by Name</a> - Get details of a specific team. (Replace `:team` with team short form)</li>
+                <li><a href="/api/npl/teams/:team">Team by Name</a> - Get details of a specific team. (Replace `:team`
+                    with team short form)</li>
             </ul>
         </div>
 
         <div class="text-center">
             <p>For better experience, use a pretty-print JSON viewer option (given on top).</p>
         </div>
+        <section class="about-npl">
+            <h2>About Nepal Premier League (NPL)</h2>
+            <p>
+                The Nepal Premier League (NPL) is the top-tier professional cricket league in Nepal. It is a competitive
+                cricket tournament featuring some of the best cricket teams in the country. The league showcases
+                thrilling cricket action and serves as a platform for Nepali cricketers to display their talent. Over
+                the years, the NPL has gained immense popularity and is followed by millions of fans across Nepal and
+                beyond.
+            </p>
+            <p>
+                The NPL features numerous teams from various regions, competing for the prestigious title. It provides
+                opportunities for local players and attracts international players to participate in the competition.
+                The tournament is a significant event for the development of cricket in Nepal and has helped raise the
+                profile of the sport in the country.
+            </p>
+            <p>
+                Our <strong>NPL API</strong> provides developers with access to comprehensive data on the Nepal Premier
+                League, including match schedules, live scores, team statistics, points tables, and detailed results.
+                With this API, users can easily integrate up-to-date NPL data into their applications, websites, or
+                services, offering cricket enthusiasts real-time information on their favorite teams and matches.
+            </p>
+            <p>
+                Whether you are a developer looking to create sports applications or a fan who wants to stay updated on
+                NPL action, this API is the perfect solution. The Nepal Premier League API offers valuable endpoints for
+                accessing match data, team statistics, rankings, and much more. Join us in supporting Nepali cricket and
+                stay connected to the action!
+            </p>
+        </section>
+
+
+
+        <p class="tags" style="visibility:hidden; height: 0; width: 0; overflow: hidden;">
+            Nepal Premier League API, NPL API endpoints, Nepal cricket API, NPL data API, NPL matches API, Nepal Premier
+            League matches data, NPL teams API, NPL points table API, Nepal Premier League results API, NPL API for team
+            stats, NPL match results API, Cricket match API for Nepal, Nepal cricket teams API, API for NPL standings,
+            Get NPL data API, Live NPL scores API, Detailed NPL match data, NPL statistics API, Football API Nepal
+            Premier League, API for viewing NPL ranking, Match number specific NPL data, NPL season stats API, NPL team
+            details API, Nepal Premier League dataset, NPL live API data, API for NPL cricket teams, Nepal Premier
+            League live scores, API for NPL match schedules, NPL API for tournament data, Nepal Premier League API
+            documentation
+        </p>
+
     </div>
 </body>
+
 </html>
