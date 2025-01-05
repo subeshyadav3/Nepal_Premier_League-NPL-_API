@@ -7,7 +7,7 @@ Subesh Yadav
 Welcome to the Nepal Premier League (NPL) API documentation! This API provides information about the NPL, including teams, matches, results, and rankings.
 
 ## Base URL
-For Better View Enable: Pretty-Print in Desktop:
+For Better View Enable: Pretty-Print:
 Visit Here: https://nepal-premiere-league-npl-api.vercel.app/api/npl/
 (for root api)
 
