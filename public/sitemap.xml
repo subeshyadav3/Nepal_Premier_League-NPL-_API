@@ -30,8 +30,14 @@
         <lastmod>2025-01-01</lastmod>
         <priority>0.8</priority>
     </url>
+    <!-- Replace ':team' with actual team names or provide examples -->
     <url>
-        <loc>https://nepal-premiere-league-npl-api.vercel.app/api/npl/teams/:team</loc>
+        <loc>https://nepal-premiere-league-npl-api.vercel.app/api/npl/teams/</loc>
+        <lastmod>2025-01-01</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://nepal-premiere-league-npl-api.vercel.app/api/npl/teams/</loc>
         <lastmod>2025-01-01</lastmod>
         <priority>0.8</priority>
     </url>
