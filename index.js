@@ -8,7 +8,7 @@ const apiRoutes = require('./routes/api');
 
 app.use('/api', apiRoutes);
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Home Page of NPL API , visit /api/npl to get the data');
 });
 
 // Start the server

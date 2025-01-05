@@ -8,6 +8,15 @@ Welcome to the Nepal Premier League (NPL) API documentation! This API provides i
 
 ## Base URL
 
+Visit Here: https://nepal-premiere-league-npl-api.vercel.app/api/npl/
+(for root api)
+
+If you want to directly visits:
+1. Matches: https://nepal-premiere-league-npl-5wacvseau-subesh.vercel.app/api/npl/matches
+2. Results: https://nepal-premiere-league-npl-5wacvseau-subesh.vercel.app/api/npl/results
+3. Points_table: https://nepal-premiere-league-npl-5wacvseau-subesh.vercel.app/api/npl/ranking
+4. Team Names: https://nepal-premiere-league-npl-5wacvseau-subesh.vercel.app/api/npl/teams
+
 FOR LOCAL DEPLOY
 ```
 http://localhost:3000/api

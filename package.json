@@ -8,8 +8,9 @@
     "start": "nodemon index.js"
   },
   "keywords": [
-    "Nepal Premier League",
-    "NPL",
+    "Nepal Premier League api",
+    "NPL api",
+    "npl 2024 all matches ,result, points table",
     "Cricket API",
     "Sports API",
     "Express",
