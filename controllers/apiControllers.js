@@ -1,11 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
-// Load JSON data
+// getting the json file i've not used any database here, can be used in future for better performance
 const dataPath = path.join(__dirname, '../data/npl_data.json');
 const nplData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
-// Controller functions
+// functions to get data from json file and send it to the client as response 
+// there is no need to create different functions for each route, we can use a single function to get all the data
+// but for better understanding i've created different functions for each route
+
 exports.getAllData = (req, res) => {
   res.json(nplData);
 };

@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 const apiController = require('../controllers/apiControllers');
 
-// Define routes
+// Define routes for API
 router.get('/npl', apiController.getAllData);
 router.get('/npl/matches', apiController.getMatches);
 router.get('/npl/matches/:matchNo', apiController.getMatchNo);
