@@ -3,6 +3,9 @@ const dotenv = require('dotenv');
 const path = require('path');
 const app = express();
 dotenv.config();
+const cors = require('cors');
+
+
 const apiRoutes = require('./routes/api');
 
 // ejs for rendering views
@@ -11,6 +14,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 //this is routes section and middlewares
+app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api', apiRoutes);
 app.get('/', (req, res) => {
