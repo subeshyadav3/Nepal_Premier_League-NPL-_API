@@ -20,6 +20,10 @@ app.use('/api', apiRoutes);
 app.get('/', (req, res) => {
     res.render('index');
 });
+//handling 404 and redirecting to api/npl route so that user don't get 404 error
+app.use((req,res,next)=>{
+    res.redirect('/api/npl');
+})
 
 
 //assigning the port and starting the server
