@@ -19,7 +19,7 @@ If you want to directly visits:
 
 FOR LOCAL DEPLOY
 ```
-http://localhost:3000/api
+http://localhost:3000/
 ```
 
 
