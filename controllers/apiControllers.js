@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // getting the json file i've not used any database here, can be used in future for better performance
-const dataPath = path.join(__dirname, '../data/npl_data.json');
+const dataPath = path.join(__dirname, '../data/updated_npl_data.json');
 const nplData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
 // functions to get data from json file and send it to the client as response 
